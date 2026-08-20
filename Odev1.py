@@ -1,78 +1,14 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "gpuType": "T4",
-      "authorship_tag": "ABX9TyNVQL9gCKkpinngy7Y4kRQK",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    },
-    "accelerator": "GPU"
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/furkandr01/python_data_science/blob/main/Odev1.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "SFgM56THf7Om",
-        "outputId": "0ebb5fc3-9f81-4278-a9de-a71840a11971"
-      },
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Aklımdan bir sayı tuttum hadi bil! 8\n",
-            "Tebrikler 100 puan kazandınız!\n"
-          ]
-        }
-      ],
-      "source": [
-        "x = 56\n",
-        "y = int(input(\"Aklımdan bir sayı tuttum hadi bil! \"))\n",
-        "y = ((y*y) - y)\n",
-        "\n",
-        "if(y==x):\n",
-        "  print(\"Tebrikler 100 puan kazandınız!\")\n",
-        "elif(y != x):\n",
-        "  result = abs(x - y)\n",
-        "  if(result <= 10):\n",
-        "    print(\"Tebrikler 50 puan kazandınız!\")\n",
-        "  elif(11 <= result <= 50):\n",
-        "    print(\"Yaklaştın yeniden dene!\")\n",
-        "  elif(result > 50):\n",
-        "    print(\"Kaybettiniz\")"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [],
-      "metadata": {
-        "id": "AX5fgSgR9bpr"
-      },
-      "execution_count": null,
-      "outputs": []
-    }
-  ]
-}
+x = 56
+y = int(input("Aklımdan bir sayı tuttum hadi bil! "))
+y = ((y*y) - y)
+
+if(y==x):
+  print("Tebrikler 100 puan kazandınız!")
+elif(y != x):
+  result = abs(x - y)
+  if(result <= 10):
+    print("Tebrikler 50 puan kazandınız!")
+  elif(11 <= result <= 50):
+    print("Yaklaştın yeniden dene!")
+  elif(result > 50):
+    print("Kaybettiniz")
